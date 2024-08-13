@@ -1,6 +1,6 @@
 # InsertionSort
 
-- Input: Field with n numbers
+- Input: Field A with n numbers
 - Output: Field sorted in ascending order
 - Pseudocode:
   ```

@@ -12,6 +12,8 @@
 		Merge(A, p, q, r) // Put the parts together
 	```
   - Time complexity:
+  	- T(n) ≤ 1, if n=1
+	- T(n) ≤ 2T(n/2) + cn, if n>1 (c is a sufficiently large constant)
   - Proof of correctness: Algorithm MergeSort(A, p, r) sorts the field A[p..r] correctly
   - Induction via the size n of the area to be sorted (i.e. n=r-p+1)
 	- Induction start (n=1):

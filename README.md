@@ -6,6 +6,8 @@ An overview of some algorithms and datastructures from the book 'Introduction to
 
 ### Divide and conquer
 
+- MergeSort(A, p, r)
+
 ### Dynamic programming
 
 ### Greedy

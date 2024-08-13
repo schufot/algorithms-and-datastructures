@@ -13,4 +13,4 @@
       j=j-1
     A[j+1]=x
   ```
-- Time complexity: (3n²+7n-8)/2
+- Time complexity: (3n²+7n-8)/2 ∈ O(n²)

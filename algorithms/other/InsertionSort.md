@@ -25,3 +25,9 @@
     - for loop ends when i has the value n+1
 	  - According to the proof of the loop invariant, the loop invariant applies that A[1..i-1]=A[1..n] is sorted in ascending order
 	  - Therefore, at the end of the algorithm, the field is sorted in ascending order
+- Visualization for | 9 | 13 | 2 | 4 | 20 |:
+	- Start: | 9 | 13 | 2 | 4 | 20 |
+ 	- After i=2: | 9 | 13 | 2 | 4 | 20 |
+	- After i=3: | 2 | 9 | 13 | 4 | 20 |
+ 	- After i=4: | 2 | 4 | 9 | 13 | 20 |
+   	- After i=5: | 2 | 4 | 9 | 13 | 20 |

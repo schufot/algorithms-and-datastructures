@@ -11,6 +11,20 @@
 		MergeSort(A, q+1, r) // Sort right hald
 		Merge(A, p, q, r) // Put the parts together
 	```
+  ```
+	Merge(A, p, q, r)
+	B=new array[1..(r-p+1)]
+	i=p //current position of array 1
+	j=q+1 //current position of array 2
+	for k=i to r-p+1 do
+		if i≤q and (j>r or A[i]≤A[j]) then
+			B[k]=A[i]
+			i=i+1
+		else
+			B[k]=A[j]
+			j=j+1
+	A[p..r]=B[1..(r-p+1)]
+	```
 - Time complexity:
 	- T(n) ≤ 1, if n=1
 	- T(n) ≤ 2T(n/2) + cn, if n>1 (c is a sufficiently large constant)

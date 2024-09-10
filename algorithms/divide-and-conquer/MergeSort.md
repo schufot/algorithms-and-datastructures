@@ -28,6 +28,16 @@
 - Time complexity:
 	- T(n) ≤ 1, if n=1
 	- T(n) ≤ 2T(n/2) + cn, if n>1 (c is a sufficiently large constant)
+- Proof of time complexity: MergeSort(A, 1, n) has a runtime of O(nlogn)
+	- Let n be a power of two
+	- We have already shown that for a sufficiently large constant c>1, the runtime of MergeSort can be estimated by the recursion: T(n)≤2 T(n/2) + cn and T(1)=1
+	- We show by induction: T(n)≤2cn log n for n≥2
+	- Induction start(n=2): The running time of the algorithm for n=2 is T(n) = T(2)≤2 T(1) + 2c = 2 + 2c ≤ 4c = 2cn
+	- Induction assumption: For 2≤m<n, m power of two, T(m) ≤ 2c m log m
+	- Induction inclsuion:
+		- Let n>2 be a power of two
+		- According to the induction assumption, T(n) = 2 T(n/2) + cn ≤ 2 (2c n/2 log(n/2)) + cn = 2cn (log n -1) + cn ≤ 2c n log n
+	- According to the induction principle, T(n) ≤ 2cnlog n = O(n log n)
 - Proof of correctness: Algorithm MergeSort(A, p, r) sorts the field A[p..r] correctly
 	- Induction via the size n of the area to be sorted (i.e. n=r-p+1)
 	- Induction start (n=1):

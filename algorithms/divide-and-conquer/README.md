@@ -9,3 +9,4 @@
 ## Algorithms
 
 - MergeSort(A, p, r)
+-  BinarySearch(A, x, p, r)

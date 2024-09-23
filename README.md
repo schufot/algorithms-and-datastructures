@@ -11,6 +11,8 @@ An overview of some algorithms and datastructures from the book 'Introduction to
 
 ### Dynamic programming
 
+- SubsetSum(A, U, n)
+
 ### Greedy
 
 ### Other

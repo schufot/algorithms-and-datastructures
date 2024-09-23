@@ -11,7 +11,8 @@ An overview of some algorithms and datastructures from the book 'Introduction to
 
 ### Dynamic programming
 
-- SubsetSum(A, U, n)
+- Knapsack(n,g,w,G), KnapsackSolution(Opt,g,w,i,j)
+- LongestCommonSubsequenceLength(X, Y, m, n)
 
 ### Greedy
 

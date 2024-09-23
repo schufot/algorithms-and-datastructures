@@ -16,3 +16,4 @@ BreadthFirstSearch(G,s)
     dequeue(Q)
     color[u] = black
 ```
+- Time complexity: O(|V|+|E|)

@@ -8,7 +8,7 @@
 - Output: Items to include in the collection so that the total weight is less than or equal to G and the total value is as large as possible
 - Pseudocode:
   ```
-  Rucksack(n,g,w,G)
+  Knapsack(n,g,w,G)
   Opt = new array [1,..,n][0,..,G]
   for j = 0 to G do \* recursion termination
     if j<g[1] then Opt[1,j] = 0

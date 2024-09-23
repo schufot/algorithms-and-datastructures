@@ -10,3 +10,5 @@
 
 - IntervalScheduling(A, E, n)
 - LatenessScheduling(t, d, n)
+- GreedyVertexCover(G)
+- GreedyLoadBalancing

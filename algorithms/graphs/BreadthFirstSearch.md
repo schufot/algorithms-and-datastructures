@@ -3,8 +3,8 @@
 - Input: unweighted graph in adjacency list representation, start node s
 - Output: shortest distance to every other node from s
 - Pseudocode:
-  ```
-	BreadthFirstSearch(G,s)
+```
+BreadthFirstSearch(G,s)
   „initialize BFS“
   while Q!=∅ do
     u = head[Q]
@@ -15,4 +15,4 @@
         enqueue(Q,v)
     dequeue(Q)
     color[u] = black
-	```
+```

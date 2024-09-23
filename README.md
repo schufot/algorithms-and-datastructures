@@ -21,6 +21,15 @@ An overview of some algorithms and datastructures from the book 'Introduction to
 - GreedyVertexCover(G)
 - GreedyLoadBalancing
 
+### Graphs
+
+- BreadthFirstSearch
+- BellmanFord
+- Floyd-Warshall
+- DepthFirstSearch
+- Kruskal
+- Prim
+
 ### Other
 
 - InsertionSort(A, n)

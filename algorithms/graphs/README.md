@@ -9,3 +9,8 @@
 ## Algorithms
 
 - BreadthFirstSearch
+- BellmanFord
+- Floyd-Warshall
+- DepthFirstSearch
+- Kruskal
+- Prim

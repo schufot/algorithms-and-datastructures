@@ -1,0 +1,15 @@
+# LatenessScheduling
+
+- Input: Number of tasks n, fields t: t[i] contains the duration of the i-th task, field d: d[i] contains deadline of the i-th task; tasks are sorted by ascending deadline
+- Ouput: Start times of the tasks so that the maximum delay is minimized
+- Pseudocode:
+  ```
+  LatenessScheduling(t,d,n)
+  A = new array [1..n]
+  z = 0
+  for i=1 to n do
+    A[i] = z
+    z = z + t[i]
+  return A
+  ```
+- Time complexity: O(n)

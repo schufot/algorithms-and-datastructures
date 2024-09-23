@@ -17,6 +17,9 @@ An overview of some algorithms and datastructures from the book 'Introduction to
 ### Greedy
 
 - IntervalScheduling(A, E, n)
+- LatenessScheduling(t, d, n)
+- GreedyVertexCover(G)
+- GreedyLoadBalancing
 
 ### Other
 

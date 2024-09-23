@@ -16,6 +16,8 @@ An overview of some algorithms and datastructures from the book 'Introduction to
 
 ### Greedy
 
+- IntervalScheduling(A, E, n)
+
 ### Other
 
 - InsertionSort(A, n)

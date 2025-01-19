@@ -11,6 +11,6 @@ for k=1 to n do
   for i=1 to n do
     for j=1 to n do
       𝑑𝑖𝑗(𝑘) = min(𝑑𝑖𝑗(𝑘−1), 𝑑𝑖𝑘(𝑘−1) + 𝑑𝑘𝑗(𝑘−1))
-7. return D(n)
+return D(n)
 ```
 - Time complexity: O(|V|³)

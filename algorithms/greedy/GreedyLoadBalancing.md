@@ -1,1 +1,8 @@
+# GreedyLoadBalancing
 
+- Input:
+- Output:
+- Pseudocode:
+```
+
+```

@@ -23,12 +23,13 @@ An overview of some algorithms and datastructures from the book 'Introduction to
 
 ### Graphs
 
-- BreadthFirstSearch
-- BellmanFord
-- Floyd-Warshall
-- DepthFirstSearch
-- Kruskal
-- Prim
+- BreadthFirstSearch(G, s)
+- BellmanFord(G, s)
+- Floyd-Warshall(W, n)
+- DepthFirstSearch(G)
+- Kruskal(G)
+- Prim(G, r)
+- Dijkstra(G, w, s)
 
 ### Other
 

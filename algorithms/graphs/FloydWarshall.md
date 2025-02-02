@@ -1,4 +1,4 @@
-# BellmanFord
+# Floyd-Warshall
 
 - Input: APSP, no negative cycles
 - Output: distance between all nodes

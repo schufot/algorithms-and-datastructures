@@ -8,5 +8,6 @@
 
 ## Algorithms
 
+- BinarySearch(A, x, p, r)
 - MergeSort(A, p, r)
--  BinarySearch(A, x, p, r)
+- SubsetSum(A, l, r)

@@ -6,8 +6,9 @@ An overview of some algorithms and datastructures from the book 'Introduction to
 
 ### Divide and conquer
 
-- MergeSort(A, p, r)
 - BinarySearch(A, x, p, r)
+- MergeSort(A, p, r)
+- SubsetSum(A, l, r)
 
 ### Dynamic programming
 

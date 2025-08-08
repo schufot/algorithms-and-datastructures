@@ -28,8 +28,8 @@
   ```
   ```
   SubsetSum(A, l, r)
-      if l == r then
-          return A[l]    // base case: only one element
+    if l == r then
+      return A[l]    // base case: only one element
     m = floor((l + r) / 2)
     
     leftSum = SubsetSum(A, l, m)

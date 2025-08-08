@@ -16,7 +16,7 @@
   if W> max then max =W
   return max
   ```
-- Time complexity: O(logn)
+- Time complexity: O(nlogn)
 - Proof of time complexity: BinarySearch(A, x, p, r) has a runtime of O(logn), where n=r-p+1 is the size of the area to be searched
   - We assume that n is a power of two
   - The recursion equation for the runtime of BinarySearch is: T(n)≤T(n/2) + c and T(1) =c

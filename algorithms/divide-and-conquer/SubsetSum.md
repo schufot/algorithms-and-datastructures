@@ -16,4 +16,26 @@
   if W> max then max =W
   return max
   ```
+  ```
+  Right(A, m+1, r)
+      W = 0
+      max = A[m+1]
+      for i = m+1 to r do
+          W = W + A[i]
+          if W > max then
+              max = W
+      return max
+  ```
+  ```
+  SubsetSum(A, l, r)
+      if l == r then
+          return A[l]    // base case: only one element
+    m = floor((l + r) / 2)
+    
+    leftSum = SubsetSum(A, l, m)
+    rightSum = SubsetSum(A, m+1, r)
+    crossSum = Left(A, l, m) + Right(A, m+1, r)
+
+    return max(leftSum, rightSum, crossSum)
+  ```
 - Time complexity: O(nlogn)

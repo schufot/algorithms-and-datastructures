@@ -12,3 +12,4 @@ while E is not empty do
   Remove all edges incident to u or v from E
 return C
 ```
+- Time complexity: O(|E|)
